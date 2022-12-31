@@ -17,7 +17,21 @@ background-color:white;
     padding: 20px;
 
 }
+.flex-conteyner{
+    border-style: solid;
+    width: 1200px;
+    display:flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
 
+
+.flex-item{
+    width:390px ;
+}
+.flex-item>p {
+    text-align: center;
+}
 
 
 .page-footer{
