@@ -45,7 +45,7 @@ padding: 0px;
 }
 
 
-
+/* контейнер 2 с фотографиями, делаю правильно по домашнему заданию */
 
 .flex-conteyner{
     border-style: solid;
@@ -54,6 +54,14 @@ padding: 0px;
     flex-wrap: wrap;
    justify-content: center;
 }
+/* прописываю через медиа максимальную или минимальную величину, до или после которой вступают в силу изминения, изминения тоже надо прописать */
+@media (max wids:1200px){
+    .flex-conteyner{}
+
+}
+
+
+
 
 
 .flex-item{
